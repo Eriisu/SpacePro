@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpacePro | Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+     <!-- NAVBAR-->
+     <div class="navbar">
+        <a href="home.html"><img class="logo" src="images/spaceproLogo.png"/><img class="logoText" src="images/spaceproText.png"></a>
+        <a href="home.html">Home <i class="fa fa-home" aria-hidden="true"></i></a>
+        <a href="about.html">About <i class="fa fa-question-circle" aria-hidden="true"></i></a>
+        <div class="dropdown">
+          <button class="dropbtn">Planets 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="mercury.html">Mercury</a>
+            <a href="venus.html">Venus</a>
+            <a href="earth.html">Earth</a>
+            <a href="mars.html">Mars</a>
+            <a href="jupiter.html">Jupiter</a>
+            <a href="saturn.html">Saturn</a>
+            <a href="uranus.html">Uranus</a>
+            <a href="neptune.html">Neptune</a>
+            <a href="pluto.html">Pluto</a>
+          </div>
+        </div>
+        <a class="contact" href="contact.html">Contact <i class="fa fa-envelope" aria-hidden="true"></i></a>
+      </div>
+
+      <h1 id="contacth1">CONTACT</h1>
+      <h2 id="contacth2">Please get in touch if you have ideas for extra features,<br>notice something's wrong, or just want to say hello! :)</h2>
+
+      <div class="contactForm">
+          <form id="contactForm" method="post" action="contact-form-handler.php" onSubmit="alert('Thank you for your feedback.');">
+              <input name="name" type="text" class="form-control" placeholder="Name" required><br>
+              <input name="email" type="email" class="form-control" placeholder="Email" required><br>
+              <textarea name="message" class="form-control" placeholder="Message, suggestions, fixes..." row="4" required></textarea><br>
+              <input type="submit" class="form-control submit" value="SEND MESSAGE">
+          </form>
+      </div>
+
+      <footer>
+        <div class="footer" id="contactFooter">
+            <p>Like this page? Get in touch!</p>
+            <ul>
+                <li><a href="https://www.instagram.com/eri.isu/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="https://twitter.com/Eri_isu"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/eriisu/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.reddit.com/user/gerudothiief"><i class="fa fa-reddit-square" aria-hidden="true"></i></a></li>
+                <li><a href="https://github.com/eriisu"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+</body>
+</html>
